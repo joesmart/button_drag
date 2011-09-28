@@ -52,7 +52,7 @@ public class DragActivity extends Activity implements View.OnTouchListener {
                image.invalidate();
            }
         }
-
+        Log.i(TAG, "On touch");
         return false;
     }
 }
